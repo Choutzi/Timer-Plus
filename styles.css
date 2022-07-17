@@ -1,0 +1,29 @@
+﻿body {
+    overflow: hidden;
+    background-color: black;
+}
+
+.current {
+    background-color: yellow;
+    height: 25%;
+    text-align: center;
+}
+
+.next {
+    background-color: yellowgreen;
+    height: 12.5%;
+    text-align: center;
+}
+
+h1 {
+    font-size: clamp(0px, 25vh, 50vw);
+    font-weight: bold;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.list-actions {
+    color: aliceblue;
+}
